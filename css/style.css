@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s_header{
+    padding: 15px 0px;
+    background-color: #255EE9;
+}
+
+.container{
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo,
+.log {
+    padding: 5px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.log{
+    flex-direction: row-reverse;
+}
+
+.log span, .logo span{
+    padding: 5px 10px;
+}
+
+
+.menu{
+    padding: 5px;
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.menu a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white
+}
+
+
+
+.s_jumbo{
+    background-image: url('../img/jumbo.png');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s_jumbo .c_jumbo{
+    width: 750px;
+    text-align: center;
+}
+
+.c_jumbo h1{
+    color: white;
+    font-size: 50px;
+    margin: 20px 0px;
+}
+
+.c_jumbo span{
+    color: white;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.s_two_box{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.s_two_box .c_two_box{
+    height: 330px;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+}
+
+.c_box_1{
+    background-color: #1e90ff;
+    width: 60%;
+}
+
+.c_box_2{
+    background-color: #ffc0cb;
+    width: 40%;
+}
+
+.bg{
+    background-color: #d3d3d3;
+}
+
+.s_one_box_big{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s_one_box_big .c_box_big{
+    background-color: #228b22;
+    width: 850px;
+    height: 700px;
+}
+
+
+.sf_two_box{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #23272a;
+}
+
+.sf_two_box .cf_two_box{
+    height: 460px;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cf_one_box {
+    background-color: #f08080;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.cf_four_box{
+    background-color: #20b2aa;
+    width: 70%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cf_box_1{
+    border: 1px dotted white;
+    flex-basis: calc(100% / 4);
+}
+
+.sf_two_box_small{
+    height: 100px;
+    display: flex;
+    background-color: #23272a;
+}
+
+.logo_f,
+.button_f {
+    height: 70px;
+    flex-grow: 1;
+    background-color: #7fffd4; 
+    display: flex;
+    align-items: center;
+}
+
+.button_f{
+    flex-direction: row-reverse;
+}
+
+.container_f{
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sf_two_box_small .container_f span{
+    padding: 5px 10px;
+    background-color: #ffb6c1;
+}
+
+.c_button{
+    margin: 20px;
+}
+
+
+
+
+
+/* Stile bottoni */
+
+.button{
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button_big{
+    border-radius: 30px;
+    padding: 15px 25px;
+    border: none;
+}
+
+.b_style1{
+    background-color: white;
+    color: black;
+}
+
+.b_style2{
+    background-color: black;
+    color: white;
+}
+
+
+.b_fs{
+    font-size: 1rem;
+}
+
+.b_fs_big{
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
